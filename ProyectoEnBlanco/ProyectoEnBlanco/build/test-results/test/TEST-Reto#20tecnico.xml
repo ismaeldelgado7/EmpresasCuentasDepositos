@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Reto tecnico" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-10-15T16:49:12" hostname="ISMAEL-PC" time="29.05">
+  <properties/>
+  <testcase name="Empresas documentos cuenta de ahorro comercial" classname="Reto tecnico" time="29.05">
+    <failure message="java.lang.AssertionError: Expected enabled element was not clickable" type="java.lang.AssertionError">java.lang.AssertionError: Expected enabled element was not clickable
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at net.serenitybdd.screenplay.waits.WaitUntilBuilder$1.performAs(WaitUntilBuilder.java:29)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:248)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:229)
+	at net.serenitybdd.screenplay.Actor.performSilently(Actor.java:209)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at chl.per.apl.app.mantenimiento.test.task.HacerClickEn.performAs(HacerClickEn.java:24)
+	at chl.per.apl.app.mantenimiento.test.task.HacerClickEn$ByteBuddy$0nenk4YO.performAs$accessor$Lm0O0pdB(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at chl.per.apl.app.mantenimiento.test.task.HacerClickEn$ByteBuddy$0nenk4YO.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:248)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:229)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:175)
+	at chl.per.apl.app.mantenimiento.test.stepdefinitions.EmpresasDepositosSteps.hagoClickEnContratoUnico(EmpresasDepositosSteps.java:60)
+	at ✽.Hago Click En Contrato Unico(src/test/resources/features/EmpresasDepositos.feature:16)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[oct 15, 2021 11:49:13 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 36211
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+oct 15, 2021 11:49:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>
