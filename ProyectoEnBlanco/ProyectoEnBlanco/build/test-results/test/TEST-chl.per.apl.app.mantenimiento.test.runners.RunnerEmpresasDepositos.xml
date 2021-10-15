@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="chl.per.apl.app.mantenimiento.test.runners.RunnerEmpresasDepositos" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="ISMAEL-PC" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+?[31mFailed scenarios:?[0m
+?[31msrc/test/resources/features/EmpresasDepositos.feature:10 ?[0m# Empresas documentos cuenta de ahorro comercial
+
+1 Scenarios (?[31m1 failed?[0m)
+7 Steps (?[31m1 failed?[0m, ?[36m1 skipped?[0m, ?[32m5 passed?[0m)
+0m29.477s
+
+java.lang.AssertionError: Expected enabled element was not clickable
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at net.serenitybdd.screenplay.waits.WaitUntilBuilder$1.performAs(WaitUntilBuilder.java:29)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:248)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:229)
+	at net.serenitybdd.screenplay.Actor.performSilently(Actor.java:209)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at chl.per.apl.app.mantenimiento.test.task.HacerClickEn.performAs(HacerClickEn.java:24)
+	at chl.per.apl.app.mantenimiento.test.task.HacerClickEn$ByteBuddy$0nenk4YO.performAs$accessor$Lm0O0pdB(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at chl.per.apl.app.mantenimiento.test.task.HacerClickEn$ByteBuddy$0nenk4YO.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:248)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:229)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:175)
+	at chl.per.apl.app.mantenimiento.test.stepdefinitions.EmpresasDepositosSteps.hagoClickEnContratoUnico(EmpresasDepositosSteps.java:60)
+	at ?.Hago Click En Contrato Unico(src/test/resources/features/EmpresasDepositos.feature:16)
+
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>

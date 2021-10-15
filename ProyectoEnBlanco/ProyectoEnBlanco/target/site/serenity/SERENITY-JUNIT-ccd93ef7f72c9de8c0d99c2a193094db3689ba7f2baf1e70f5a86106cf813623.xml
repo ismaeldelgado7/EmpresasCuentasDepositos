@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Reto tecnico" skipped="0" tests="1" time="27.83" timestamp="2021-10-15 11:49:12"><testcase name="Empresas documentos cuenta de ahorro comercial"><failure message="Expected enabled element was not clickable" type="java.lang.AssertionError">Expected enabled element was not clickable</failure><system-err>Expected enabled element was not clickable&#13;
+chl.per.apl.app.mantenimiento.test.task.HacerClickEn.performAs(HacerClickEn.java:24)&#13;
+chl.per.apl.app.mantenimiento.test.stepdefinitions.EmpresasDepositosSteps.hagoClickEnContratoUnico(EmpresasDepositosSteps.java:60)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
